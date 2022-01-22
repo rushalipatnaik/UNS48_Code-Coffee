@@ -1,4 +1,9 @@
 module.exports.landing = (req,res)=>{
-    res.render('landing');
-}
+   // console.log(req.cookies);
+   // res.cookie('user_id',27);
 
+   return res.render('landing',{
+      title:'Homepage'
+   });
+   
+}
