@@ -1,5 +1,29 @@
-<form action="/users/signIn" method="post">
-    <input type="email" placeholder="Enter Email" name="email" id="email" required>
-    <input type="password" placeholder="Enter Password" name="password" id="password" required>
-    <button type="submit">SignIn</button>
-</form>
+<link rel="stylesheet" href="/css/user_signIn.css">
+
+<body>
+    <h1 class="main-heading">
+        Soothe Thyself
+    </h1>
+   <div class="container">
+       <p class="heading">Sign in</p>
+       <div class="box">
+        <form action="/users/signIn" method="post">
+           <p>Email</p>
+           <div>
+               <input type="email" name="" id="" placeholder="Enter Your Email">
+           </div>
+       </div>
+
+       <div class="box">
+
+          <p>Password</p>
+          <div>
+               <input type="password" name="" id="" placeholder="Enter Your Password">
+           </div>
+       </div>
+
+       <button class="loginBtn">Login</button>
+           <p class="text">Dont have an account? <a href="#">Sign up</a></p>
+      </form>
+    </div>
+</body>
