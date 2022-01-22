@@ -1,0 +1,31 @@
+.footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+.upper{
+    display: flex;
+    padding-top: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img{
+    height: 25px;
+    width: 25px;
+    margin: 0 10px;
+    color: white;
+}
+
+.lower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.lower a{
+    color: white;
+}
